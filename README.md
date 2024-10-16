@@ -15,6 +15,8 @@ And some more examples:
 5547 -> ÍWOPÎ
 1234567 -> Í,BXÈ7LÎ
 ```
+  
 **To turn the output into a normal barcode, you need to apply the Code128 font to it**  
+  
 A few words about the algorithm: https://en.wikipedia.org/wiki/Code_128  
 The website I used to check results: https://www.bcgen.com/fontencoder
