@@ -109,6 +109,9 @@ def code_128_encoder(sequence):
     # Добавляем заключительный символ.
     result += chr(206)
     
+    # Постобработка на случай, если в результате есть пробелы.
+    result.replace(' ', chr(194))
+    
     return result
 
 def code_128(sequence):
